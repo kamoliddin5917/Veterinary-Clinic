@@ -306,12 +306,13 @@ body {
   padding-top: 153px;
   padding-bottom: 290px;
 
-  background-image: url(../img/kuchuk_quyon.png), url(../img/totiqush.png);
+
   background-repeat: no-repeat;
+  /* background-image: url(../img/kuchuk_quyon.png), url(../img/totiqush.png);
   background-size: 730px 890px,
     290px 500px;
   background-position: top -90px left 0px,
-    bottom -52px right 0px;
+    bottom -52px right 0px; */
 }
 
 .section1__text {
@@ -495,6 +496,8 @@ body {
   background-color: #fff;
   width: 193px;
   border-radius: 5px;
+
+  text-align: center;
 }
 
 .card:not(:first-child) {
